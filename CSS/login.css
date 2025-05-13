@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+.main{
+    height: 100vh;
+    background-image: url(GUimage.png);
+    background-size: cover;
+}
+
+.logo{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+#logo1{
+    height: 80px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+.login{
+    height: 550px;
+    width: 430px;
+    /* border: 2px solid black; */
+    background-color: rgb(255, 255, 255,0.8);
+    position: absolute;
+    top: 50px;
+    left: 480px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.gulogo{
+    height: 20%;
+    width: 100%;
+}
+
+.data{
+    height: 40%;
+    width: 100%;
+}
+
+.select{
+    height: 5%;
+    width: 100%;
+}
+
+.logins{
+    height: 15%;
+    width: 100%;;
+}
+
+.social{
+    height: 15%;
+    width: 100%;   
+}
+
+#gulg{
+    height: 60px;
+    width: 250px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: none;
+    animation-name: inputanimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    transition: 1s;
+}
+
+@keyframes inputanimation{
+    0%{
+        box-shadow: 0 0 10px blue;
+    }
+    20%{
+        box-shadow: 0 0 10px red;
+    }
+    40%{
+        box-shadow: 0 0 10px green;
+    }
+    60%{
+        box-shadow: 0 0 10px rgb(230, 230, 4);
+    }
+    80%{
+        box-shadow: 0 0 10px black;
+    }
+    100%{
+        box-shadow: 0 0 10px brown;
+    }
+}
+.selects{
+    height: 30px;
+    width: 325px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    background-color: rgb(167, 166, 166);
+    border: none;
+    font-weight: 400;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+#frps{
+    margin-left: 260px;
+    font-size: 13px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+#frps:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    margin-left: 160px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #2945EF;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    border: none;
+    transition: 1s;
+}
+
+button:hover{
+    transform: translate(2px, 2px );
+    background-color: white;
+    color: #2945EF;
+    font-weight: bold;
+    /* box-shadow: #2945EF; */
+    cursor: pointer;
+}
+h4{
+    margin-left: 200px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    color: black;
+}
+
+#somedia{
+    height: 45px;
+    width: 200px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #4285f4;
+    color: white;
+    margin-left: 120px;
+    font-size: 15px;  
+}
+
+#somedia:hover{
+    background-color: white;
+    color: #4285f4;
+}
+
+#google{
+    height: 50%;
+    width: 20%;
+    padding-left: 3px;
+    padding-top: 13px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    background-color: white;
+    border-radius: 3px;
+}
+#google:hover{
+    background-color: #4285f4;
+    color: white;
+
+}
+
+
+
+
+
+
+
